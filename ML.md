@@ -150,7 +150,11 @@ The c-means algorithm works as follows:
 
 - **Flexibility:** Handles overlapping data effectively.
 - **Informative Membership Degrees:** Membership degrees provide additional insight into data point relationships with clusters.
+**Flexible Cluster Shapes:**
+- K-means tends to assume spherical clusters. C-means, however, is more flexible and can accommodate clusters of various shapes and sizes due to the fuzzy membership assignment.
+- **Robust to Noise and Outliers:**
 
+- The fuzzy membership nature of c-means makes it less sensitive to noise and outliers in the data compared to k-means. Outliers might have lower membership scores in all clusters, reducing their influence.
 **Disadvantages:**
 
 - **Initialization Sensitivity:** Like K-means, sensitive to initial centroid placement. Running it multiple times can help.
