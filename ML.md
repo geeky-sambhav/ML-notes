@@ -264,6 +264,13 @@ Hierarchical clustering is an unsupervised machine learning algorithm that group
 # REINFORCEMENT LEARNING
 Reinforcement Learning (RL) is a subfield of machine learning that focuses on how an intelligent agent should take actions in an environment to maximize some notion of cumulative reward. It differs from supervised learning, where the agent is given labeled examples to learn from, and unsupervised learning, where the agent has to discover patterns in unlabeled data.Here are the key points about reinforcement learning in machine learning:
 
+# PROCESS OF REINFORCEMENT LEARNING
+
+- **State Perception:** The **agent** starts by observing the environment. This initial observation is called the **current state**. The state could be anything from the position of objects in a game to a specific financial market condition.
+- **Action Selection:** Based on the current state and its internal policy (think of it as a set of decision-making rules), the agent chooses an **action** to take. This action could be a movement in a game, a buying or selling decision in finance, or any other option available within the environment.
+- **Environment Response:** The **environment** reacts to the agent's action. This reaction can change the state of the environment and provide a **reward signal** to the agent. The reward signal indicates how "good" or "bad" the chosen action was in terms of achieving the agent's goal. A positive reward signifies a desirable outcome, while a negative reward (penalty) indicates an undesirable outcome.
+- **Learning and Policy Update:** The agent receives the reward and uses it to **update its policy**. This update involves adjusting the decision-making rules based on the experienced reward. The goal is to strengthen the association between states, actions, and the rewards received. Over time, the agent learns which actions lead to higher rewards in specific states.
+- **Iteration:** This cycle of state perception, action selection, reward reception, and policy update continues in a loop. As the agent interacts with the environment more, it gathers more experience and refines its policy to make better choices that maximize its long-term reward.
 ## What is Reinforcement Learning?
 
 - RL is about learning the optimal behavior in an environment to obtain maximum reward through trial-and-error interactions with the environment.
