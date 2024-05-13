@@ -77,7 +77,13 @@ https://www.javatpoint.com/machine-learning-support-vector-machine-algorithm
 ## SVM Kernals
 Kernel is the mathematical function, which is used in SVM to map the original input data points into ==high-dimensional feature spaces==, so, that the hyperplane can be easily found out even if the data points are not linearly separable in the original input space. Some of the common kernel functions are linear, polynomial, radial basis function(RBF), and sigmoid.
 ![[Pasted image 20240328120033.png]]
+process of kernelling in support vector machine
+**Steps Involved:**
 
+2. **Data Representation:** The data is represented as points in the original feature space.
+4. **Kernel Function Selection:** A suitable kernel function is chosen based on the data and the problem. Common choices include linear, polynomial, and radial basis function (RBF).
+6. **Kernel Application:** The kernel function takes two data points (x₁ and x₂) as input and computes a similarity measure between them in the higher-dimensional space.
+8. **Inner Product Calculation:** The result of the kernel function (often representing a dot product in the higher-dimensional space) is used within the SVM algorithm
 # K MEANS CLUSTERING
 - K-means clustering is a popular unsupervised machine learning algorithm used for grouping ==unlabeled data into K distinct clusters== based on similarity.
 - Each data point belongs to the cluster with the nearest mean.
