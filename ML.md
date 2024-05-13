@@ -133,7 +133,7 @@ https://www.javatpoint.com/k-means-clustering-algorithm-in-machine-[[]]learning
 - C-means clustering, often referred to as fuzzy c-means clustering, is a method of clustering that allows one piece of data to belong to two or more clusters.
 - This approach is different from k-means clustering, where each data point belongs exclusively to one cluster. 
 - In c-means clustering, each data point belongs to a cluster to a degree specified by a membership grade. 
-- This grade is a number between 0 and 1 that represents the strength of the association between that data point and a particular cluster.
+- This grade is a number between 0 and 1 that ==represents the strength of the association between that data point and a particular cluster.==
 ## ALGO
 The c-means algorithm works as follows:
 
