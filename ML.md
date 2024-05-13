@@ -47,31 +47,6 @@ helps determine the probability of an event (A) occurring, considering the fact 
 # WORKING
 ![[Pasted image 20240401210351.png]]
 
-# TYPES
-
-### 1. Gaussian Naive Bayes: Championing Continuous Data
-
-- **Data Type:** Continuous - Numbers that can take on any value within a range (e.g., temperature, height, stock prices).
-- **Assumption:** Features are assumed to follow a normal distribution (bell-shaped curve). This means the data points tend to cluster around a central value with a gradual decrease in frequency as you move away from the center.
-- **How it Works:** Gaussian Naive Bayes calculates the probability of each feature value belonging to a specific class under the assumption that it follows a normal distribution. By combining these individual probabilities using Bayes' theorem, it predicts the class with the highest overall probability for a new data point.
-
-**Example:** Imagine classifying emails as spam or not spam based on features like word frequency (e.g., number of times "urgent" appears) and email length. Gaussian Naive Bayes would assume the word frequencies and email length follow normal distributions for both spam and non-spam emails. It would then calculate the probability of each feature value (e.g., specific word frequency) given the class (spam or not spam) based on these distributions. Finally, it would combine these probabilities to predict the class (spam or not spam) for a new email.
-![[Pasted image 20240328083754.png]]
-### 2. Multinomial Naive Bayes: Mastering the Discrete with Counts
-
-- **Data Type:** Discrete (counts) - Data represented as whole numbers indicating frequency or occurrence (e.g., word counts in a document, number of website visits per user).
-- **Assumption:** Features follow a multinomial distribution. This is a generalization of the binomial distribution (two possible outcomes) for scenarios with multiple categories. In simpler terms, it represents the probability of observing a specific set of counts for each feature within a class.
-- **How it Works:** Similar to Gaussian Naive Bayes, Multinomial Naive Bayes calculates the probability of each feature count belonging to a specific class, considering the multinomial distribution. It then combines these probabilities using Bayes' theorem to predict the class with the highest overall probability for a new data point.
-
-**Example:** Classifying documents as sports-related or not based on word frequencies (e.g., frequency of words like "athlete" and "baseball"). Multinomial Naive Bayes would assume the word frequencies follow a multinomial distribution for both sports and non-sports documents. It would calculate the probability of each word count (e.g., specific frequency of "athlete") given the class (sports or not sports) based on these distributions. Finally, it would combine these probabilities to predict the class (sports or not sports) for a new document.AA
-
-### 3. Bernoulli Naive Bayes: The Binary Maestro
-
-- **Data Type:** Binary - Features can only have two possible values (0 or 1). This is often used for text classification where features represent word presence or absence in a document (1 for present, 0 for absent).
-- **Assumption:** Features follow a Bernoulli distribution. This is a special case of the binomial distribution where there are only two outcomes (success or failure). In Naive Bayes context, it represents the probability of a feature being present (1) or absent (0) given a particular class.
-- **How it Works:** Bernoulli Naive Bayes calculates the probability of each feature being present (1) or absent (0) belonging to a specific class, considering the Bernoulli distribution. It then combines these probabilities using Bayes' theorem to predict the class with the highest overall probability for a new data point.
-
-**Example:** Classifying emails as spam or not spam based on the presence or absence of specific words (e.g., "urgent" present = 1, absent = 0). Bernoulli Naive Bayes would assume the presence/absence of each word follows a Bernoulli distribution for both spam and non-spam emails. It would calculate the probability of each word being present (1) or absent (0) given the class (spam or not spam) based on these distributions. Finally, it would combine these probabilities to predict the class (spam or not spam) for a new email.
 
 
 # SVM (SUPPORT VECTOR MACHINE)
@@ -79,7 +54,7 @@ helps determine the probability of an event (A) occurring, considering the fact 
 SVMs, or Support Vector Machines, are a powerful type of supervised learning algorithm used in machine learning for various tasks, primarily ==**classification**==. They can also be used for regression and outlier detection in some cases.
  The main idea behind SVMs is to find a ==hyperplane that maximally separates the different classes==  in the training data. 
  This is done by finding the hyperplane t==hat has the largest margin==, which is defined as the distance between the hyperplane and the closest data points from each class. 
- Once the hyperplane is determined, new data can be classified by determining on which side of the hyperplane it falls. SVMs are particularly useful when the data has many features, and/or when there is a clear margin of separation in the data.
+ # Once the hyperplane is determined, new data can be classified by determining on which side of the hyperplane it falls. SVMs are particularly useful ==when the data has many features, and/or when there is a clear margin of separation in the data.==
 The dimension of the hyperplane depends upon the ==number of features==. If the number of input features is two, then the hyperplane is just a line. ==If the number of input features is three, then the hyperplane becomes a 2-D plane==. It becomes difficult to imagine when the number of features exceeds three.
 ## MATHS BEHIND SVM / HOW SVM WORKS
 [[Drawing 2024-03-28 09.42.26.excalidraw]]
