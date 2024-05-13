@@ -196,13 +196,13 @@ Hierarchical clustering is an unsupervised machine learning algorithm that group
 ![[Pasted image 20240329193114.png]]
 ### ****Hierarchical clustering has several advantages over other clustering methods****
 
-- The ability to handle non-convex clusters and clusters of different sizes and densities.
-- The ability to handle missing data and noisy data.
+- The ability to handle ==non-convex clusters and clusters of different sizes and densities.==
+- The ability to handle ==missing data and noisy data==.
 - The ability to reveal the hierarchical structure of the data, which can be useful for understanding the relationships among the clusters.
 
 ### ****Drawbacks of Hierarchical Clustering****
 
-- The need for a criterion to stop the clustering process and determine the final number of clusters.
+- The need for a criterion to ==stop the clustering process== and determine the final number of clusters.
 - The computational cost and memory requirements of the method can be high, especially for large datasets.
 - The results can be sensitive to the initial conditions, linkage criterion, and distance metric used.  
     In summary, Hierarchical clustering is a method of data mining that groups similar data points into clusters by creating a hierarchical structure of the clusters. 
