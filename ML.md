@@ -92,7 +92,7 @@ process of kernelling in support vector machine
 ### ADVANTAGES
 - **Simplicity and Ease of Use:** K-means is a well-understood algorithm with a straightforward concept. It partitions data points into groups (clusters) based on their similarity. This makes it easy to learn and implement, even for beginners in machine learning.
     
-- **Speed and Efficiency:** The algorithm is computationally efficient, allowing it to handle large datasets quickly. This is because it uses a relatively simple iterative process to assign data points to clusters and refine those clusters.
+- **Speed and Efficiency:** The algorithm is computationally efficient, allowing it to ==handle large datasets quickly==. This is because it uses a relatively simple iterative process to assign data points to clusters and refine those clusters.
     
 - **Scalability:** K-means scales well with increasing data size. Even with massive datasets, it can efficiently process information and identify patterns.
     
