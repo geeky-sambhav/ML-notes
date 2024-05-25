@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "f066830cc5d7e06b",
+            "id": "dfbfb8bad929a633",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-21 16.37.05.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md"
               }
             }
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-21 16.37.05.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-21 16.37.05.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-21 16.37.05.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md"
               }
             }
           }
@@ -159,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f066830cc5d7e06b",
+  "active": "dfbfb8bad929a633",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-05-21 16.37.05.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md",
     "Pasted Image 20240521163711_583.png",
     "ML.md",
-    "Excalidraw/Drawing 2024-05-21 16.37.05.excalidraw.md",
     "Excalidraw/Untitled.md",
     "Excalidraw/Untitled.canvas",
     "Excalidraw/Drawing 2024-05-12 14.43.53.excalidraw.md",
@@ -188,7 +189,6 @@
     "Pasted image 20240402004404.png",
     "Pasted image 20240402004326.png",
     "Pasted image 20240402003700.png",
-    "Pasted image 20240401221455.png",
     "Excalidraw/Drawing 2024-03-30 04.52.34.excalidraw.md",
     "SVR Algorithms.pdf",
     "Drawing 2024-03-28 09.58.47.excalidraw.md",
