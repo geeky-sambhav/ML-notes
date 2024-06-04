@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dfbfb8bad929a633",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md",
+                "file": "ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md",
+                "file": "ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md"
+                "file": "ML.md"
               }
             }
           }
@@ -159,10 +148,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dfbfb8bad929a633",
+  "active": "0e8b2d170baee9ee",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-05-21 16.37.05.excalidraw.md",
     "Excalidraw/Drawing 2024-05-25 10.43.54.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-21 16.37.05.excalidraw.md",
     "Pasted Image 20240521163711_583.png",
     "ML.md",
     "Excalidraw/Untitled.md",
